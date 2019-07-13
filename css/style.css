@@ -1,8 +1,8 @@
 *{margin: 0;padding: 0}
 *{box-sizing: border-box}
 .window{width: 225px;height:225px;overflow: hidden;margin:20px auto;border:1px solid red}
-.images{position: relative;border:10px solid green}
-.images > img{width: 100%;position:absolute;top:0;animation: all 1s}
+.images{position: relative;border:1px solid green}
+.images > img{width: 100%;position:absolute;top:0;transition: all 3s}
 .images > img.current{transform: translateX(0);z-index: 1}
 .images > img.leave{transform: translateX(-225px);z-index: 1}
 .images > img.wait{transform: translateX(225px);}
